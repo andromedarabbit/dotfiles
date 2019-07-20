@@ -4,7 +4,7 @@ cask_args appdir: '/Applications'
 # brew 'torsocks'
 # brew 'arm'
 # cask 'tor-browser'
-# cask 'onionshare'
+cask 'onionshare'
 # cask 'tunnelbear'
 
 # brew 'gpg2', args: [ '--with-readline' ]
