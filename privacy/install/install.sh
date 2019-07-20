@@ -11,7 +11,6 @@ brew bundle --file="$THIS_DIR/Brewfile"
 
 # DNS Crypt
 cp -f "${THIS_DIR}/dnscrypt-proxy.toml" "/usr/local/etc/dnscrypt-proxy.toml"
-brew services restart dnscrypt-proxy
-networksetup -setdnsservers "Wi-Fi" 127.0.0.1
+sudo brew services restart dnscrypt-proxy && networksetup -setdnsservers "Wi-Fi" 127.0.0.1
 
 which keybase && keybase pgp pull

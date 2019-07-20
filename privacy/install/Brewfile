@@ -33,7 +33,7 @@ cask 'keybase'
 
 # cask 'opendns-updater'
 
-# brew 'dnscrypt-proxy'
+brew 'dnscrypt-proxy'
 # cask 'dnscrypt'
 
 # brew 'dnsmasq', args: ['--with-dnssec', '--with-libidn']

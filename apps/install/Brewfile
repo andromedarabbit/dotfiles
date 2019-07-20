@@ -111,3 +111,5 @@ cask 'contexts'
 cask 'bitbar'
 
 cask 'nitroshare'
+
+cask 'startupizer'
