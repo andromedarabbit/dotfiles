@@ -24,3 +24,6 @@ gem install --user-install tmuxinator
 
 # Google Cloud Platform
 type gcloud 2>&1 > /dev/null && gcloud components update --quiet
+
+# AWS Cli
+complete -C '/usr/local/aws/bin/aws_completer' aws

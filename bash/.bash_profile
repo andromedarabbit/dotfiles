@@ -1,4 +1,4 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
 
 # Add `~/bin` to the `$PATH`
 export PATH="$HOME/bin:/usr/local/sbin:/usr/local/bin:$HOME/.gem/ruby/2.3.0/bin:$PATH"
@@ -38,7 +38,7 @@ for option in autocd globstar; do
 done;
 
 # Add tab completion for many Bash commands
-which brew > /dev/null && [[ -r "$(brew --prefix)l/etc/profile.d/bash_completion.sh" ]] && . "$(brew --prefix)/etc/profile.d/bash_completion.sh"
+which brew > /dev/null && [[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]] && . "$(brew --prefix)/etc/profile.d/bash_completion.sh"
 
 # Add tab completion for `defaults read|write NSGlobalDomain`
 # You could just use `-g` instead, but I like being explicit
@@ -65,6 +65,4 @@ type -P direnv > /dev/null && eval "$(direnv hook bash)"
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
-if [[ -f "${HOME}/.bashrc" ]]; then
-    source "${HOME}/.bashrc"
-fi
+[ -f "${HOME}/.bashrc" ] && source "${HOME}/.bashrc"

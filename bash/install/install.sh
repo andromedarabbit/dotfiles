@@ -9,11 +9,14 @@ THIS_SHELL_PATH="/usr/local/bin/$THIS_SHELL"
 
 if test ! -f "$THIS_SHELL_PATH"
 then
-  # Install Bash 4.
+  # Install Bash 5.
   brew bundle --file="$THIS_DIR/Brewfile"
 
   # Add the new shell to the list of allowed shells
   sudo bash -c "echo $THIS_SHELL_PATH >> /etc/shells"
+
+  # Set this new shell as the default shell
+  chsh -s /usr/local/bin/bash
 fi
 
 # Change to the new shell
@@ -29,3 +32,9 @@ which tldr && tldr --update
 
 # Z
 # . /usr/local/etc/profile.d/z.sh
+
+# ansi
+TMP_DIR=$(mktemp -d)
+curl --silent -L git.io/ansi -o "${TMP_DIR}/ansi"
+chmod +x "${TMP_DIR}/ansi"
+sudo mv "${TMP_DIR}/ansi" /usr/local/bin/

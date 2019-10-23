@@ -12,6 +12,9 @@ cask 'gpg-suite'
 
 # cask 'gpg-sync'
 
+# cask 'bitwarden'
+# brew 'bitwarden-cil'
+
 cask '1password'
 cask '1password-cli'
 # cask 'lastpass'
