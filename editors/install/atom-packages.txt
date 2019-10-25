@@ -30,7 +30,6 @@ language-docker
 language-dots
 language-fish-shell
 language-haproxy
-language-hombrew-formula
 language-ignore
 language-ini
 language-log

@@ -1,6 +1,6 @@
 cask_args appdir: '/Applications'
 
-tap 'caskroom/fonts'
+tap 'homebrew/cask-fonts'
 
 cask 'font-d2coding'
 
