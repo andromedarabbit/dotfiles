@@ -1,10 +1,7 @@
 cask_args appdir: '/Applications'
 
 # Java development
-cask 'java8' unless system '/usr/libexec/java_home --failfast'
-
-#tap 'caskroom/versions'
-#cask 'java7'
+cask 'java' unless system '/usr/libexec/java_home --failfast'
 
 cask 'intellij-idea'
 
