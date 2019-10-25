@@ -1,7 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'homebrew/cask'
-tap 'homebrew/versions'
+tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 
 brew 'brew-cask-completion'

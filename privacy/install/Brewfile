@@ -15,7 +15,7 @@ cask 'gpg-suite'
 # cask 'bitwarden'
 # brew 'bitwarden-cil'
 
-cask '1password'
+cask '1password-beta'
 cask '1password-cli'
 # cask 'lastpass'
 # brew 'lastpass-cli', args: [ '--with-doc', '--with-pinentry' ]

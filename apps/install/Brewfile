@@ -74,7 +74,7 @@ cask 'spotify'
 ## cask 'google-nik-collection'
 # cask 'tvmobili'
 
-cask 'airmail-beta'
+# cask 'airmail-beta'
 
 cask 'anki'
 # cask 'gitbook-editor'

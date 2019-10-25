@@ -96,7 +96,7 @@ brew 'yq'
 
 # brew 'osquery'
 
-brew 'md5sha1sum'
+# brew 'md5sha1sum'
 
 # DigitalOcean
 brew 'doctl'
