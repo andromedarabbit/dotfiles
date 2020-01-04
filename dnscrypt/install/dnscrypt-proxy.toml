@@ -28,7 +28,7 @@
 ## Remove the leading # first to enable this; lines starting with # are ignored.
 
 # server_names = ['scaleway-fr', 'google', 'yandex', 'cloudflare']
-server_names = ['google', 'cloudflare']
+server_names = ['cloudflare', 'google']
 
 
 ## List of local addresses and ports to listen to. Can be IPv4 and/or IPv6.
@@ -104,7 +104,7 @@ force_tcp = false
 
 ## How long a DNS query will wait for a response, in milliseconds
 
-timeout = 2500
+timeout = 1500
 
 
 ## Keepalive for HTTP (HTTPS, HTTP/2) queries, in seconds

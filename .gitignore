@@ -34,3 +34,6 @@ Temporary Items
 
 # Visual Studio Code
 .vscode/*
+
+# Brew
+Brewfile.lock.json

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>Label</key>
+    <string>com.dunamu.dnscrypt-proxy</string>
+    <key>KeepAlive</key>
+    <true/>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>ProgramArguments</key>
+    <array>
+      <string>/usr/local/opt/dnscrypt-proxy/sbin/use-dnscrypt-proxy.sh</string>
+    </array>
+    <key>StandardOutPath</key>
+    <string>VAR_HOME/Library/Logs/use-dnscrypt-proxy.log</string>
+    <key>StandardErrorPath</key>
+    <string>VAR_HOME/Library/Logs/use-dnscrypt-proxy.log</string>
+    <key>ProcessType</key>
+    <string>Background</string>
+    <key>LowPriorityBackgroundIO</key>
+    <true/>
+  </dict>
+</plist>
