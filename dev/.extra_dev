@@ -1,17 +1,19 @@
 #!/usr/bin/env bash
 
-PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
-MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
+# export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"
+# export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
-alias ls='ls -F --color=auto'
-alias dir='dir --color=auto'
-alias vdir='vdir --color=auto'
+export PATH="/usr/local/opt/ncurses/bin:$PATH"
 
-alias grep='grep --color=auto'
+# alias ls='ls -F --color=auto'
+# alias dir='dir --color=auto'
+# alias vdir='vdir --color=auto'
 
-alias rm='rmtrash'
-alias diff='colordiff'
+# alias grep='grep --color=auto'
+
+# alias rm='rmtrash'
+# alias diff='colordiff'
 
 # Google Cloud Platform
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
-source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'
+# source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.bash.inc'
+# source '/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.bash.inc'

@@ -1,33 +1,4 @@
 cask_args appdir: '/Applications'
 
 brew 'bash'
-brew 'bash-completion@2' # if running Bash 4.1+
-
-cask 'iterm2-beta'
-#cask 'hyper'
-
-# Just for fun
-brew 'fortune'
-brew 'cowsay'
-brew 'ponysay'
-
-## See http://haruair.com/blog/3542
-brew 'figlet'
-
-
-## See https://hashnode.com/post/what-are-your-top-cli-tools-hacks-for-productivity-cinov8y4w00njxh53j2w9wfy4
-# brew 'z'
-brew 'autojump'
-
-brew 'ranger'
-
-# Simplified and community-driven man pages
-brew 'tldr'
-
-# See https://hackernoon.com/macbook-my-command-line-utilities-f8a121c3b019#.9coythpx9
-brew 'peco'
-
-brew 'yank'
-
-# See https://blog.outsider.ne.kr/1306
-brew 'direnv'
+# brew 'bash-completion@2' # if running Bash 4.1+

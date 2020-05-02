@@ -3,7 +3,7 @@ cask_args appdir: '/Applications'
 brew 'python'
 brew 'python3'
 
-cask 'pycharm'
+# cask 'pycharm'
 
 brew 'pip-completion'
 

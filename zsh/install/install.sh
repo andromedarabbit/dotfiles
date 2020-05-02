@@ -19,3 +19,10 @@ if [ "$LOGIN_SHELL" == "$THIS_SHELL" ] && [ "$THIS_SHELL_PATH" != "`finger -l $U
 then
   chsh -s "$THIS_SHELL_PATH"
 fi
+
+# See https://github.com/ohmyzsh/ohmyzsh
+if [[ ! -d "${HOME}/.oh-my-zsh" ]]; then
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+fi
+
+compaudit | xargs chmod g-w,o-w

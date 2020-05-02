@@ -4,7 +4,7 @@ cask_args appdir: '/Applications'
 # brew 'torsocks'
 # brew 'arm'
 # cask 'tor-browser'
-cask 'onionshare'
+# cask 'onionshare'
 # cask 'tunnelbear'
 
 # brew 'gpg2', args: [ '--with-readline' ]
@@ -20,8 +20,8 @@ cask '1password-cli'
 # cask 'lastpass'
 # brew 'lastpass-cli', args: [ '--with-doc', '--with-pinentry' ]
 
-tap 'ravenac95/sudolikeaboss'
-brew 'sudolikeaboss'
+# tap 'ravenac95/sudolikeaboss'
+# brew 'sudolikeaboss'
 
 # tap 'homebrew/fuse'
 # brew 'encfs'
@@ -32,7 +32,7 @@ brew 'sudolikeaboss'
 
 cask 'keybase'
 
-# cask 'authy'
+cask 'authy'
 
 # cask 'opendns-updater'
 
@@ -40,7 +40,7 @@ cask 'keybase'
 
 cask 'adguard'
 
-brew 'openvpn'
+# brew 'openvpn'
 brew 'wireguard-tools'
 
 # cask 'outline-manager'

@@ -6,4 +6,4 @@ brew 'yarn'
 
 brew 'watchman'
 
-cask 'webstorm'
+# cask 'webstorm'

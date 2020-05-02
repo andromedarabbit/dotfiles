@@ -50,7 +50,7 @@ find . -path '**/install/install.sh' -mindepth 3 -maxdepth 3 | while read instal
   if [[ -f "${DIRNAME}/../.disabled" ]]; then
     continue
   fi
-  sh -c "chmod +x ${installer} && ${installer}" 
+  sh -c "chmod +x ${installer} && ${installer}"
 done
 
 

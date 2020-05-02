@@ -23,7 +23,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # See https://jplegat.github.io/pages/2016/04/15/Changing-locale-in-Mac-OS/
 defaults write -g AppleLocale en_KR
 defaults write -g AppleLanguages -array 'en-KR' 'ko-KR'
-defaults write NSGlobalDomain AppleLanguages "(en-KR, ko-KR)" 
+defaults write NSGlobalDomain AppleLanguages "(en-KR, ko-KR)"
 # defaults write NSGlobalDomain AppleLanguages -array "en" "nl"
 # defaults write NSGlobalDomain AppleLocale -string "en_GB@currency=EUR"
 # defaults write NSGlobalDomain AppleMeasurementUnits -string "Centimeters"
@@ -128,7 +128,7 @@ sudo defaults write /Library/Preferences/com.apple.AppleFileServer guestAccess -
 /usr/libexec/ApplicationFirewall/socketfilterfw --setallowsignedapp on
 
 # Show VPN on the Menu Bar
-defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/vpn.menu"
+# defaults write com.apple.systemuiserver menuExtras -array-add "/System/Library/CoreServices/Menu Extras/vpn.menu"
 
 ###############################################################################
 # Safari & WebKit                                                             #
@@ -158,7 +158,7 @@ defaults write com.apple.TimeMachine DoNotOfferNewDisksForBackup -bool true
 # Disable Time Machine backups
 # hash tmutil &> /dev/null && sudo tmutil disable
 
-# This command prevents Time Machine’s backup process assuming a low CPU priority, allowing backups to complete insanely quickly. 
+# This command prevents Time Machine’s backup process assuming a low CPU priority, allowing backups to complete insanely quickly.
 # See http://www.mackungfu.org/massively-speed-up-time-capsule-time-machine-backups
 sudo sysctl debug.lowpri_throttle_enabled=0
 

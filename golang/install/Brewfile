@@ -1,9 +1,9 @@
 cask_args appdir: '/Applications'
 
 brew 'go'
-brew 'glide'
+# brew 'glide'
 
-brew 'dep'
-brew 'graphviz'
+# brew 'dep'
+# brew 'graphviz'
 
 cask 'goland'

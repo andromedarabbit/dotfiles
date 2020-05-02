@@ -1,6 +1,5 @@
-
-
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-# added by travis gem
-[ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
+[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"
+
+source $(brew --prefix)/etc/bash_completion.d/kubectl

@@ -9,7 +9,7 @@ brew 'you-get'
 brew 'ffmpeg'
 brew 'libav'
 
-brew 'jrnl'
+# brew 'jrnl'
 # cask 'dayone-cli'
 # cask 'typora'
 
@@ -25,23 +25,23 @@ cask 'path-finder'
 # cask 'go2shell'
 
 # Browsers
-cask 'firefox'
-cask 'google-chrome'
-# cask 'google-chrome-canary'
+cask 'firefox-nightly'
+# cask 'google-chrome'
+cask 'google-chrome-canary'
 
 # Office
 # cask 'skype'
 cask 'telegram'
-cask 'signal'
+# cask 'signal'
 # cask 'whatsapp'
 # cask 'pdfpenpro'
 cask 'pdf-expert'
 
 # Writing
-cask 'marked'
-cask 'markdown-service-tools'
+# cask 'marked'
+# cask 'markdown-service-tools'
 
-cask 'nvalt'
+# cask 'nvalt'
 
 # cask 'notion'
 
@@ -56,19 +56,19 @@ cask 'microsoft-office'
 # cask 'skim'
 
 # Backups
-cask 'dropbox'
+# cask 'dropbox'
 # cask 'flickr-uploadr'
 # cask 'google-backup-and-sync'
-cask 'google-drive-file-stream'
+# cask 'google-drive-file-stream'
 # cask 'amazon-cloud-drive'
 # cask 'chronosync'
 
-brew 'gdrive'
+# brew 'gdrive'
 
 # Multimedia
-cask 'vlc'
+# cask 'vlc'
 #cask 'elmedia-player'
-cask 'air-video-server-hd'
+# cask 'air-video-server-hd'
 cask 'spotify'
 ## https://www.google.com/nikcollection/
 ## cask 'google-nik-collection'
@@ -76,7 +76,7 @@ cask 'spotify'
 
 # cask 'airmail-beta'
 
-cask 'anki'
+# cask 'anki'
 # cask 'gitbook-editor'
 # cask 'transmission'
 # cask 'webtorrent'
@@ -106,10 +106,13 @@ cask 'anki'
 
 # cask 'etcher'
 
-cask 'rcdefaultapp'
-cask 'contexts'
+# cask 'rcdefaultapp'
+# cask 'contexts'
 cask 'bitbar'
 
-cask 'nitroshare'
+# cask 'nitroshare'
 
-cask 'startupizer'
+# cask 'startupizer'
+
+cask 'slack-beta'
+cask 'quip'

@@ -24,17 +24,3 @@ if [ "$LOGIN_SHELL" == "$THIS_SHELL" ] && [ "$THIS_SHELL_PATH" != "`finger -l $U
 then
   chsh -s "$THIS_SHELL_PATH"
 fi
-
-mkdir -p "${HOME}/bin"
-
-# Update TLDR database
-which tldr && tldr --update
-
-# Z
-# . /usr/local/etc/profile.d/z.sh
-
-# ansi
-TMP_DIR=$(mktemp -d)
-curl --silent -L git.io/ansi -o "${TMP_DIR}/ansi"
-chmod +x "${TMP_DIR}/ansi"
-sudo mv "${TMP_DIR}/ansi" /usr/local/bin/

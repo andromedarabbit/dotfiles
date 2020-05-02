@@ -2,6 +2,3 @@ cask_args appdir: '/Applications'
 
 brew 'fish'
 
-## See https://hashnode.com/post/what-are-your-top-cli-tools-hacks-for-productivity-cinov8y4w00njxh53j2w9wfy4
-brew 'z'
-brew 'autojump'

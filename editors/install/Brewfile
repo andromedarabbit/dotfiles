@@ -13,7 +13,7 @@ brew 'neovim'
 
 cask 'sublime-text'
 # cask 'sublime-text-dev'
-cask 'sublime-merge'
+# cask 'sublime-merge'
 
 cask 'visual-studio-code'
 

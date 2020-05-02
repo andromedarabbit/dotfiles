@@ -12,6 +12,6 @@ brew 'stow'
 
 # Utils
 brew 'p7zip'
-brew 'testdisk'
+# brew 'testdisk'
 brew 'cmark-gfm'
 brew 'gtypist'

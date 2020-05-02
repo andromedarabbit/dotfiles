@@ -10,8 +10,8 @@ cask 'docker-edge'
 # brew 'docker-compose-completion'
 # brew 'docker-machine-completion'
 
-cask 'jet'
-brew 'fleetctl'
+# cask 'jet'
+# brew 'fleetctl'
 
 # brew 'kubectl'
 # brew 'kubernetes-helm'
@@ -19,4 +19,4 @@ brew 'fleetctl'
 
 brew 'kubectx'
 
-brew 'reactiveops/tap/rbac-lookup'
+# brew 'reactiveops/tap/rbac-lookup'
